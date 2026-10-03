@@ -18,6 +18,6 @@ public class HelloController {
 
     @GetMapping("/goodbye")
     public String bye() {
-        return "goodbye from IIT!";
+        return "goodbye!";
     }
 }
